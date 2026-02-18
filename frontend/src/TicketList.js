@@ -13,6 +13,7 @@ function TicketList({ refreshTrigger }) {
 
   useEffect(() => {
     fetchTickets();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refreshTrigger]);
 
   const fetchTickets = async () => {
