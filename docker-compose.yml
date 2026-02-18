@@ -19,7 +19,6 @@ services:
 
   backend:
     build: ./backend
-    command: /app/entrypoint.sh
     volumes:
       - ./backend:/app
     ports:
